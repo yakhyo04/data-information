@@ -39,13 +39,10 @@ button{
 
 @media (max-width: 500px){
     .wrapper{
-        /* margin: 0; */
-        /* padding: 50px 110px 0; */
         width: 100%;
         justify-content: space-evenly;
     }
     li{
         margin-right: auto;
-        /* margin-left: 20px; */
     }
 }
