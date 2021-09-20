@@ -1,0 +1,32 @@
+.box{
+    width: 300px;
+    padding: 10px 15px;
+    border-radius: 7px;
+    box-shadow: 0 3px 5px gray;
+}
+img{
+    width: 100%;
+}
+#list{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+li{
+    margin-top: 100px;
+}
+li:hover{
+    box-shadow: 10px 10px 30px grey;
+}
+.wrapper{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+}
+button{
+    border: none;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
