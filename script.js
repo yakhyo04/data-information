@@ -79,7 +79,7 @@ const data3 = [
 
 
 all.addEventListener('submit', (e)=>{
-    
+        
     e.preventDefault();
 
     data.forEach((dat) => {
