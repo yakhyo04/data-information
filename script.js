@@ -123,12 +123,10 @@ about.addEventListener('submit', (e)=>{
     
         list.appendChild(newLi)
     })
-})
-
-products.addEventListener('submit', (e)=>{
-    
+})                              
+                                            
+products.addEventListener('submit', (e)=>{  
     e.preventDefault();
-
     data3.forEach((data3) => {
         let newLi = document.createElement('li');
         let title = document.createElement('h2');
